@@ -1,8 +1,8 @@
 // File: C:\Users\Raymond\Desktop\instant-work-icare\app\vitals\page.tsx
-import * as entry from '../../../../app/Ai feature/page.jsx'
+import * as entry from '../../../../app/Aifeature/page.jsx'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/Ai feature/page.jsx')
+type TEntry = typeof import('../../../../app/Aifeature/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

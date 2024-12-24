@@ -21,7 +21,7 @@ const routes = [
   {
     label: "Diagnostic Reports",
     icon: Calendar,
-    href: "/appointments",
+    href: "/Diagnosed",
   },
   {
     label: "Prescriptions",
@@ -31,7 +31,7 @@ const routes = [
   {
     label: "AI Features",
     icon: Activity,
-    href: "/vitals",
+    href: "/Aifeature",
   },
   {
     label: "Profile",

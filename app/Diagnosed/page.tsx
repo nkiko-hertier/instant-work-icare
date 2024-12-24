@@ -36,12 +36,12 @@ export default function Appointments() {
     <div className="p-8">
       <div className="flex justify-between items-center mb-8">
         <div>
-          <h1 className="text-3xl font-bold">Appointments</h1>
+          <h1 className="text-3xl font-bold">My Diagnosis Review</h1>
           <p className="text-muted-foreground">
-            Manage your upcoming appointments
+            Manage your upcoming checkups
           </p>
         </div>
-        <Button>Schedule New Appointment</Button>
+        <Button>Schedule New  checkup</Button>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -61,7 +61,7 @@ export default function Appointments() {
         <Card className="p-6">
           <h2 className="text-lg font-semibold mb-4">
             {date ? (
-              <>Appointments for {date.toLocaleDateString()}</>
+              <>Checkups  for {date.toLocaleDateString()}</>
             ) : (
               "Select a date"
             )}
@@ -87,7 +87,7 @@ export default function Appointments() {
               ))
             ) : (
               <p className="text-muted-foreground">
-                No appointments scheduled for this date
+                No checkups scheduled for this date
               </p>
             )}
           </div>

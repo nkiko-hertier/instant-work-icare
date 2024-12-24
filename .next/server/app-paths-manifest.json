@@ -1,10 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/settings/page": "app/settings/page.js",
   "/medical-history/page": "app/medical-history/page.js",
+  "/Diagnosed/page": "app/Diagnosed/page.js",
   "/prescriptions/page": "app/prescriptions/page.js",
-  "/auth/login/page": "app/auth/login/page.js",
-  "/auth/register/page": "app/auth/register/page.js"
+  "/Aifeature/page": "app/Aifeature/page.js",
+  "/profile/page": "app/profile/page.js"
 }
