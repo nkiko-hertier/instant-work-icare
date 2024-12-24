@@ -1,0 +1,8 @@
+{
+  "/appointments/page": "app/appointments/page.js",
+  "/medical-history/page": "app/medical-history/page.js",
+  "/prescriptions/page": "app/prescriptions/page.js",
+  "/vitals/page": "app/vitals/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/settings/page": "app/settings/page.js"
+}
