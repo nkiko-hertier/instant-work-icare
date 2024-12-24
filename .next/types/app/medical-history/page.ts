@@ -1,4 +1,4 @@
-// File: C:\Users\Raymond\Downloads\project-bolt-sb1-vlzpfadg (2)\i-care-2\app\medical-history\page.tsx
+// File: C:\Users\Raymond\Desktop\instant-work-icare\app\medical-history\page.tsx
 import * as entry from '../../../../app/medical-history/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -11,10 +11,10 @@ export default function Dashboard() {
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-3xl font-bold">Welcome back, Sarah</h1>
-          <p className="text-muted-foreground">Manage your health information</p>
+          <p className="text-muted-foreground">Manage your status</p>
         </div>
         <Button asChild>
-          <Link href="/appointments">Schedule Appointment</Link>
+          <Link href="/appointments">Check My Status</Link>
         </Button>
       </div>
 
@@ -22,19 +22,25 @@ export default function Dashboard() {
         <Card className="p-4">
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4 text-primary" />
-            <h3 className="font-semibold">Next Appointment</h3>
+            <h3 className="font-semibold">Next Transfer</h3>
           </div>
           <p className="mt-2 text-2xl font-bold">Mar 28, 2024</p>
           <p className="text-sm text-muted-foreground">Dr. Smith - Cardiology</p>
+          <Button asChild>
+          <Link href="/appointments" className="mt-4  ml-44">Checkout</Link>
+        </Button>
         </Card>
 
         <Card className="p-4">
           <div className="flex items-center gap-2">
             <Activity className="h-4 w-4 text-primary" />
-            <h3 className="font-semibold">Latest Vitals</h3>
+            <h3 className="font-semibold">Latest Advice</h3>
           </div>
           <p className="mt-2 text-2xl font-bold">120/80</p>
           <p className="text-sm text-muted-foreground">Blood Pressure</p>
+          <Button asChild>
+          <Link href="/appointments"className="mt-4  ml-44">Checkout</Link>
+        </Button>
         </Card>
 
         <Card className="p-4">
@@ -44,6 +50,9 @@ export default function Dashboard() {
           </div>
           <p className="mt-2 text-2xl font-bold">4</p>
           <p className="text-sm text-muted-foreground">Prescriptions</p>
+          <Button asChild>
+          <Link href="/appointments"className="mt-4  ml-44">Checkout</Link>
+        </Button>
         </Card>
 
         <Card className="p-4">
@@ -53,12 +62,15 @@ export default function Dashboard() {
           </div>
           <p className="mt-2 text-2xl font-bold">2</p>
           <p className="text-sm text-muted-foreground">New test results</p>
+          <Button asChild>
+          <Link href="/appointments " className="mt-4  ml-44">Checkout</Link>
+        </Button>
         </Card>
       </div>
 
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <Card className="p-6">
-          <h3 className="text-lg font-semibold mb-4">Upcoming Appointments</h3>
+          <h3 className="text-lg font-semibold mb-4">Upcoming  Transfers</h3>
           <div className="space-y-4">
             {[
               {
@@ -89,6 +101,9 @@ export default function Dashboard() {
                 </div>
               </div>
             ))}
+             <Button asChild>
+          <Link href="/appointments " className=" border-solid-1 border-white mt-4  ml-60">Reschedule</Link>
+        </Button>
           </div>
         </Card>
 
@@ -123,6 +138,9 @@ export default function Dashboard() {
               </div>
             ))}
           </div>
+          <Button asChild>
+          <Link href="/appointments " className="mt-4  ml-64">View</Link>
+        </Button>
         </Card>
       </div>
     </div>
