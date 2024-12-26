@@ -10,7 +10,7 @@ export default function Settings() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className="p-8">
+    <div className="p-8 bg-slate-50  text-black h-screen">
       <h1 className="text-3xl font-bold mb-8">Settings</h1>
       
       <div className="space-y-6">

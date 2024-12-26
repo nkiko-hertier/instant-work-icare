@@ -1,25 +1,35 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/medical-history/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/medical-history/page.js"
     ],
+    "/Diagnosed/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Diagnosed/page.js"
+    ],
     "/prescriptions/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/prescriptions/page.js"
+    ],
+    "/Aifeature/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Aifeature/page.js"
     ],
     "/profile/page": [
       "static/chunks/webpack.js",
@@ -31,25 +41,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/settings/page.js"
     ],
-    "/auth/login/page": [
+    "/Healthprogram/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth/login/page.js"
+      "static/chunks/app/Healthprogram/page.js"
     ],
-    "/auth/register/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth/register/page.js"
-    ],
-    "/Diagnosed/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Diagnosed/page.js"
-    ],
-    "/Aifeature/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Aifeature/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

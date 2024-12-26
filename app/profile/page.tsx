@@ -21,7 +21,7 @@ export default function Profile() {
   };
 
   return (
-    <div className="p-8">
+    <div className="p-8 bg-slate-50  text-black h-screen">
       <h1 className="text-3xl font-bold mb-8">Profile</h1>
       
       <Card className="p-6">

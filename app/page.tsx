@@ -7,13 +7,13 @@ import Link from "next/link";
 
 export default function Dashboard() {
   return (
-    <div className="p-8">
+    <div className="p-8  bg-slate-50  text-black h-screen">
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-3xl font-bold">Welcome back, Sarah</h1>
           <p className="text-muted-foreground">Manage your status</p>
         </div>
-        <Button asChild>
+        <Button asChild className="bg-black text-white">
           <Link href="/appointments">Check My Status</Link>
         </Button>
       </div>
