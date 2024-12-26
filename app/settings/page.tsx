@@ -32,7 +32,7 @@ export default function Settings() {
           <div className="space-y-4">
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium">Dark Mode</p>
+                <p className="font-medium">Darks Mode</p>
                 <p className="text-sm text-muted-foreground">Toggle dark mode theme</p>
               </div>
               <Switch checked={darkMode} onCheckedChange={setDarkMode} />
